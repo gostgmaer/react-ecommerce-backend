@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "json"
+    },
+    "orderID": {
+      "type": "uid",
+      "default": "GSIDASDE000001"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "stripeSessionId": {
+      "type": "string"
+    }
+  }
+}
