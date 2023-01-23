@@ -64,6 +64,15 @@
     },
     "isSale": {
       "type": "boolean"
+    },
+    "isstock": {
+      "type": "boolean",
+      "default": true
+    },
+    "stockCount": {
+      "type": "biginteger",
+      "default": "26",
+      "min": "1"
     }
   }
 }
